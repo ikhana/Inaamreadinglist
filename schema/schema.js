@@ -28,8 +28,8 @@ const {
   GraphQLNonNull
 } = require('graphql');
 
-const Book=require ('../dbmodels/book');
-const Author =require ('../dbmodels/author');
+const Book=require ('./dbmodels/book');
+const Author =require ('./dbmodels/author');
 // Launch Type
 const BookType = new GraphQLObjectType({
   name: 'Book',
